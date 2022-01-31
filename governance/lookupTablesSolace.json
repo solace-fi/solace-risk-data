@@ -1,0 +1,60 @@
+{
+    "auditSolaceLookup": [
+        {
+            "auditsOg": "",
+            "auditSolace": "Unknown"
+        },
+        {
+            "auditsOg": 0,
+            "auditSolace": "Zero or one"
+        },
+        {
+            "auditsOg": 1,
+            "auditSolace": "Zero or one"
+        },
+        {
+            "auditsOg": 2,
+            "auditSolace": "Two or more"
+        },
+        {
+            "auditsOg": 3,
+            "auditSolace": "Two or more"
+        }
+    ],
+    "categorySolaceLookup": {
+        "exchange": 1,
+        "lending": 1,
+        "liquidity-pool": 1,
+        "yield-aggregator": 1,
+        "other": 1,
+        "asset-management": 1,
+        "unrated": 1
+    },
+    "tvlSolaceLookup": [
+        {
+            "lowerLimit": 0,
+            "upperLimit": 100000000,
+            "tvlSolace": 1
+        },
+        {
+            "lowerLimit": 100000001,
+            "upperLimit": 1000000000,
+            "tvlSolace": 2
+        },
+        {
+            "lowerLimit": 1000000001,
+            "upperLimit": 10000000000,
+            "tvlSolace": 3
+        },
+        {
+            "lowerLimit": 10000000001,
+            "upperLimit": 100000000000,
+            "tvlSolace": 4
+        }
+    ],
+    "oracleSolaceLookup": {
+        "Yes": 1,
+        "No": 1,
+        "Unknown": 1
+    }
+}
