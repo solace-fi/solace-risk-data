@@ -1,3 +1,5 @@
+# THIS IS AN EXAMPLE ONLY
+# We are moving publishing process from spreadsheet to S3 and python data pipeline
 import pandas as pd
 import json
 from pinatapy import PinataPy
