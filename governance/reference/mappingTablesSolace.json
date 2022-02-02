@@ -1,7 +1,7 @@
 {
     "auditSolaceLookup": [
         {
-            "auditsOg": "",
+            "auditsOg": "null",
             "auditSolace": "Unknown"
         },
         {
@@ -21,15 +21,6 @@
             "auditSolace": "Two or more"
         }
     ],
-    "categorySolaceLookup": {
-        "exchange": 1,
-        "lending": 1,
-        "liquidity-pool": 1,
-        "yield-aggregator": 1,
-        "other": 1,
-        "asset-management": 1,
-        "unrated": 1
-    },
     "tvlSolaceLookup": [
         {
             "lowerLimit": 0,
@@ -53,8 +44,8 @@
         }
     ],
     "oracleSolaceLookup": {
-        "Yes": 1,
-        "No": 1,
-        "Unknown": 1
+        "Yes": "Yes",
+        "No": "No",
+        "Unknown": "Unknown"
     }
 }
