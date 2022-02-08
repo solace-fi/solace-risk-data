@@ -47,5 +47,15 @@
         "Yes": "Yes",
         "No": "No",
         "Unknown": "Unknown"
+    },
+    "categorySolaceLookup": {
+        "category":[
+        "lending",
+        "exchange",
+        "liquidity-pool",
+        "yield-aggregator",
+        "asset-management"
+        ]
     }
+
 }
