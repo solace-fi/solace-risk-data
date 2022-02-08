@@ -1,0 +1,20 @@
+{ "tvlSolaceRelativities": [
+    {
+        "tvlSolace": 1,
+        "relativityTvlData": 1
+    },
+    {
+        "tvlSolace": 2,
+        "relativityTvlData": 1
+    },
+    {
+        "tvlSolace": 3,
+        "relativityTvlData": 1
+    },
+    {
+        "tvlSolace": 4,
+        "relativityTvlData": 1
+    }
+]
+
+}
