@@ -13,7 +13,7 @@ PINATA_KEY = os.environ.get("PINATA_KEY")
 PINATA_SECRET_KEY = os.environ.get("PINATA_SECRET_KEY")
 
 #print(INFURA_1)
-xls = pd.ExcelFile('SolaceExploitDatabase.xlsx')
+xls = pd.ExcelFile('../governance/reference/SolaceRMValues.xlsx')
 
 def build_metadata():
     metadataOut =  {
@@ -36,20 +36,20 @@ def build_function():
     return functionOut
 
 # protocolMap
-sheet1 = xls.parse(2) # position of sheet in excel file (0-indexed)
-protocolMap = sheet1[["appId","category","tier"]] # must match column names in excel file
+protocolMap = xls.parse(3) # position of sheet in excel file (0-indexed)
+protocolMap = protocolMap[["appId","categorySolace","tier"]] # must match column names in excel file
 protocolMapObj = [{k: v for k, v in x.items() if pd.notnull(v)} for x in protocolMap.to_dict('records')]
 
 # corrValue
-corrValue = xls.parse(3) # position of sheet in excel file (0-indexed)
+corrValue = xls.parse(2) # position of sheet in excel file (0-indexed)
 corrValueObj = [{k: v for k, v in x.items() if pd.notnull(v)} for x in corrValue.to_dict('records')]
 
 # correlCat
-correlCat = xls.parse(4) # position of sheet in excel file (0-indexed)
+correlCat = xls.parse(1) # position of sheet in excel file (0-indexed)
 correlCatObj = [{k: v for k, v in x.items() if pd.notnull(v)} for x in correlCat.to_dict('records')]
 
 # rateTable
-rateCard = xls.parse(5) # position of sheet in excel file (0-indexed)
+rateCard = xls.parse(0) # position of sheet in excel file (0-indexed)
 rateCardObj = [{k: v for k, v in x.items() if pd.notnull(v)} for x in rateCard.to_dict('records')]
 
 outputSeries = json.dumps({"metadata":build_metadata(), "function":build_function(),"data":{ "protocolMap": protocolMapObj, "corrValue": corrValueObj, "correlCat": correlCatObj, "rateCard": rateCardObj}},indent=2)
