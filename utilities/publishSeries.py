@@ -37,7 +37,7 @@ def build_function():
 
 # protocolMap
 protocolMap = xls.parse(3) # position of sheet in excel file (0-indexed)
-protocolMap = protocolMap[["appId","categorySolace","tier"]] # must match column names in excel file
+protocolMap = protocolMap[["appId","category","tier"]] # must match column names in excel file
 protocolMapObj = [{k: v for k, v in x.items() if pd.notnull(v)} for x in protocolMap.to_dict('records')]
 
 # corrValue
