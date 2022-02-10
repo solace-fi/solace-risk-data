@@ -1,11 +1,11 @@
 { "auditSolaceRelativities": [
     {
         "auditSolace": "Unknown",
-        "relativityAuditEj1": 2.5
+        "relativityAuditEj1": 1
     },
     {
         "auditSolace": "Zero or one",
-        "relativityAuditEj1": 2
+        "relativityAuditEj1": 1
     },
     {
         "auditSolace": "Two or more",

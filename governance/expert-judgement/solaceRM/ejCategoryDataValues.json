@@ -1,7 +1,7 @@
 { "categorySolaceRelativities": [
     {
         "categorySolace": "exchange",
-        "relativityCategoryEj1": 1.5
+        "relativityCategoryEj1": 1
     },
     {
         "categorySolace": "lending",
@@ -9,19 +9,19 @@
     },
     {
         "categorySolace": "liquidity-pool",
-        "relativityCategoryEj1": 2
+        "relativityCategoryEj1": 1
     },
     {
         "categorySolace": "yield-aggregator",
-        "relativityCategoryEj1": 2
+        "relativityCategoryEj1": 1
     },
     {
         "categorySolace": "other",
-        "relativityCategoryEj1": 1.5
+        "relativityCategoryEj1": 1
     },
     {
         "categorySolace": "unrated",
-        "relativityCategoryEj1": 3
+        "relativityCategoryEj1": 1
     }
 ]
 

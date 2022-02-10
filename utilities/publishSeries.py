@@ -6,14 +6,15 @@ from pinatapy import PinataPy
 import requests
 import os
 from dotenv import load_dotenv
-load_dotenv()
-INFURA_1 = os.environ.get("INFURA_1")
-INFURA_2 = os.environ.get("INFURA_2")
-PINATA_KEY = os.environ.get("PINATA_KEY")
-PINATA_SECRET_KEY = os.environ.get("PINATA_SECRET_KEY")
+#load_dotenv()
+#INFURA_1 = os.environ.get("INFURA_1")
+#INFURA_2 = os.environ.get("INFURA_2")
+#PINATA_KEY = os.environ.get("PINATA_KEY")
+#PINATA_SECRET_KEY = os.environ.get("PINATA_SECRET_KEY")
 
 #print(INFURA_1)
-xls = pd.ExcelFile('../governance/reference/SolaceRMValues.xlsx')
+xls = pd.ExcelFile('./governance/reference/SolaceRMValues.xlsx')
+
 
 def build_metadata():
     metadataOut =  {
@@ -56,8 +57,8 @@ outputSeries = json.dumps({"metadata":build_metadata(), "function":build_functio
 print(outputSeries)
 files = {'upload_file': ('series.json', outputSeries, 'application/json')}
 
-pinata = PinataPy(PINATA_KEY, PINATA_SECRET_KEY)
-pinata.pin_json_to_ipfs(outputSeries)
+#pinata = PinataPy(PINATA_KEY, PINATA_SECRET_KEY)
+#pinata.pin_json_to_ipfs(outputSeries)
 #response = requests.post('https://ipfs.infura.io:5001/api/v0/add', files=files, auth=('asdf','adfd'))
 #response = requests.post('https://ipfs.infura.io:5001/api/v0/add', files=files, auth=(INFURA_1, INFURA_2))
 #Qm = response.content.decode('utf-8').split('"')[7]

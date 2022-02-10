@@ -9,4 +9,10 @@ Overlay judgement from n experts
 Weightings on relative risk scores from n experts
 Publish series.json for rating_engine and IPFS
 
+Update temporal database by following the steps in the temporal data pipeline located in the utilities folder
+
+
+
+
+
 
