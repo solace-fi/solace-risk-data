@@ -1,0 +1,32 @@
+{ "categorySolaceRelativities": [
+    {
+        "categorySolace": "exchange",
+        "relativityCategoryData": 1
+    },
+    {
+        "categorySolace": "lending",
+        "relativityCategoryData": 1
+    },
+    {
+        "categorySolace": "liquidity-pool",
+        "relativityCategoryData": 1
+    },
+    {
+        "categorySolace": "yield-aggregator",
+        "relativityCategoryData": 1
+    },
+    {
+        "categorySolace": "asset-management",
+        "relativityCategoryData": 1
+    },
+    {
+        "categorySolace": "other",
+        "relativityCategoryData": 1
+    },
+    {
+        "categorySolace": "unrated",
+        "relativityCategoryData": 1
+    }
+]
+
+}

@@ -1,0 +1,16 @@
+{ "oracleSolaceRelativities": [
+    {
+        "oracleSolace": "Yes",
+        "relativityOracleEj1": 1
+    },
+    {
+        "oracleSolace": "No",
+        "relativityOracleEj1": 1
+    },
+    {
+        "oracleSolace": "Unknown",
+        "relativityOracleEj1": 1
+    }
+]
+
+}
