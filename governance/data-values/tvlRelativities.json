@@ -1,20 +1,4 @@
-{ "tvlSolaceRelativities": [
-    {
-        "tvlSolace": 1,
-        "relativityTvlData": 1
-    },
-    {
-        "tvlSolace": 2,
-        "relativityTvlData": 1
-    },
-    {
-        "tvlSolace": 3,
-        "relativityTvlData": 1
-    },
-    {
-        "tvlSolace": 4,
-        "relativityTvlData": 1
-    }
-]
-
-}
+{"damageRatio":{"0":1.438118195,"1":0.3415839412,"2":0.1248647357,"3":0},
+"tvlSolace":{"0":1.0,"1":2.0,"2":3.0,"3":4.0},
+"lowerLimit":{"0":0,"1":100000001,"2":1000000001,"3":10000000001},
+"upperLimit":{"0":100000000,"1":1000000000,"2":10000000000,"3":100000000000}}

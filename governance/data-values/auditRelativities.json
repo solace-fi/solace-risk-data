@@ -1,16 +1,3 @@
-{ "auditSolaceRelativities": [
-    {
-        "auditSolace": "Unknown",
-        "relativityAuditData": 1
-    },
-    {
-        "auditSolace": "Zero or one",
-        "relativityAuditData": 1
-    },
-    {
-        "auditSolace": "Two or more",
-        "relativityAuditData": 1
-    }
-]
-
-}
+{"damageRatio":{"0":1.7291529213,"1":0.7964846466,"2":1.1471305489},
+"auditSolace":{"0":"Unknown","1":"Two or more","2":"Zero or one"},
+"auditsOg":{"0":"null","1":2,"2":3}}

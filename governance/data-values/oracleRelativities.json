@@ -1,16 +1,2 @@
-{ "oracleSolaceRelativities": [
-    {
-        "oracleSolace": "Yes",
-        "relativityOracleData": 1
-    },
-    {
-        "oracleSolace": "No",
-        "relativityOracleData": 1
-    },
-    {
-        "oracleSolace": "Unknown",
-        "relativityOracleData": 1
-    }
-]
-
-}
+{"damageRatio":{"0":1.9760547326,"1":0.6719355685,"2":0.9340269907},
+"oracleSolace":{"0":"Unknown","1":"Yes","2":"No"}}
