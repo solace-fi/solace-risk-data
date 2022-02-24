@@ -18,13 +18,10 @@ xls = pd.ExcelFile('./governance/reference/SolaceRMValues.xlsx')
 
 def build_metadata():
     metadataOut =  {
-        "seriesName": "Series 1.3",
-        "version": "0.0.1",
-        "dateCreated": "2021-07-03",
-        "provenance": "ipfs://cid0000000",
-        "generatedBy": "SolacePublish SDK 0.1 Exporter",
-        "sourceDataType": "csv",
-        "sourceDataVersion": "0.0.1"
+       "seriesName": "Series 1.3",
+       "version": "0.0.1",
+       "dateCreated": "2022-02-15",
+       "provenance": "testing-data"
     }
     return metadataOut
 
