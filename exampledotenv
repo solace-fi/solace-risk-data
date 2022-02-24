@@ -1,0 +1,9 @@
+ACCESS_KEY = 'asd'
+SECRET_KEY = 'asdf-asdf'
+DATA_BUCKET = 'risk-data.solace.fi.data'
+INFURA_1 = 'asdf'
+INFURA_2 = 'asdf'
+WEB3_INFURA_PROJECT_ID = 'asd'
+WEB3_INFURA_API_SECRET  = 'asd'
+PINATA_KEY = "asdf"
+PINATA_SECRET_KEY = "asdf"
